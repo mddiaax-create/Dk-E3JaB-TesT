@@ -133,9 +133,6 @@ const panelMessage = interaction.options.getString("panel_message") || "Click th
             const buttonLabel =
                 interaction.options.getString("button_label") ||
 "Create Ticket";
-              const buttonLabel =
-                interaction.options.getString("button_label") ||
-                  "Create Ticket";
             const maxTicketsPerUser = interaction.options.getInteger("max_tickets_per_user") || 3;
 const dmOnClose = interaction.options.getBoolean("dm_on_close") !== false;
 
